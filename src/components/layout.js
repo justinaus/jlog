@@ -25,7 +25,10 @@ const Layout = ({ location, title, children }) => {
       <header className="global-header">{header}</header>
       <main>{children}</main>
       <footer>
-        <a href="https://github.com/justinaus">Justinaus Github</a>
+        <ul className="stack-horizontal">
+          <li><a href="https://github.com/justinaus">Github</a></li>
+          <li><a href="mailto:justinaus2k@gmail.com">Mail</a></li>
+        </ul>
       </footer>
     </div>
   )
