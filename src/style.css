@@ -54,7 +54,7 @@
   --fontSize-5: 2.074rem;
   --fontSize-6: 2.488rem;
   --fontSize-7: 2.986rem;
-  --color-primary: #005b99;
+  --color-primary: #c67330;
   --color-text: #2e353f;
   --color-text-light: #4f5969;
   --color-heading: #1a202c;
@@ -175,6 +175,8 @@ ol {
   margin-bottom: var(--spacing-8);
   list-style-position: outside;
   list-style-image: none;
+
+  list-style: none;
 }
 
 ul li,
@@ -330,4 +332,9 @@ a:focus {
   ol {
     list-style-position: inside;
   }
+}
+
+.stack-horizontal {
+  display: flex;
+  gap: var(--spacing-2);
 }
